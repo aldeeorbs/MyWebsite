@@ -94,6 +94,11 @@ img{
     background-color: grey;
     clear: both;
 }
+
+.project-wrapper{
+    display: inline-block;
+    margin:5px;
+}
 /* End Project Row*/
 
 /* Footer Row */
