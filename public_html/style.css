@@ -1,0 +1,103 @@
+body,h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+a{
+
+}
+
+img{
+    border: 1px solid black;
+}
+
+/*Rows*/
+.header,.r1-introduction,.r2-project-highlights,
+.r3-footer {
+    display: block;
+    padding: 4px;
+}
+
+/* Header Row */
+.header{
+    background-color: lightblue;
+    padding-bottom: 10px;
+}
+
+.header-page-name, .header-nav{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.header-page-name{
+    margin-left: 40%;
+}
+
+.header-profile-picture{
+    float:left; 
+    margin-left: 10px;
+}
+
+#header-img{
+    border-radius: 100%;
+    
+}
+
+.nav-links{
+    text-decoration: none;
+    padding: 10px;
+    border: 0.5px solid yellow;
+    margin: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+
+}
+
+.header-nav{
+    float: right;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+/* End Header */
+
+/*Introduction Row*/
+.r1-introduction{
+    background-color: lightgreen;  
+    height: 300px;
+}
+
+.text-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.introduction-profile-picture{
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.introduction-text{
+    margin-left: 500px;
+    
+    
+}
+
+#intro-img{
+    border-radius: 10%;
+}
+/* End Introduction Row */
+
+/*Projects Row */
+.r2-project-highlights{
+    background-color: grey;
+    clear: both;
+}
+/* End Project Row*/
+
+/* Footer Row */
+.r3-footer{
+    background-color: lightpink;
+}
+/* End Footer Row */
